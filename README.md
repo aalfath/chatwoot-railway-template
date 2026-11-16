@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/chatwoot-5?utm_medium=integration&utm_source=button&utm_campaign=chatwoot)
+
 # Chatwoot on Railway
 
 A Railway template for [Chatwoot](https://www.chatwoot.com), the open-source customer support platform (shared inbox for website live chat, email, WhatsApp, Telegram, Facebook, Instagram and more).
