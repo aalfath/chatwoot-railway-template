@@ -1,6 +1,6 @@
 # Chatwoot for Railway: the official image, pinned by version and digest,
 # plus a start script that runs the web server and the Sidekiq worker together.
-FROM chatwoot/chatwoot:v4.19.1@sha256:a0d571a3a2f78f4fa4b1d7c21a53309c0184068d6021b3664ab37788faef04c1
+FROM chatwoot/chatwoot:v4.20.0@sha256:224bac350a1a627120ac6500d6b6d509cbd3ef9bb57803bb935c631b47555836
 
 ENV RAILS_ENV=production \
     NODE_ENV=production \
