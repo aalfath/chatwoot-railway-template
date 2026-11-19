@@ -8,7 +8,7 @@ A Railway template for [Chatwoot](https://www.chatwoot.com), the open-source cus
 
 | Service | Source | Notes |
 |---|---|---|
-| **Chatwoot** | this repo (`Dockerfile`) | `chatwoot/chatwoot:v4.19.1`, pinned by digest. Runs the Rails web server and the Sidekiq worker in one container. Public domain, health check `/api`, volume at `/app/storage` for uploads |
+| **Chatwoot** | this repo (`Dockerfile`) | `chatwoot/chatwoot:v4.20.0`, pinned by digest. Runs the Rails web server and the Sidekiq worker in one container. Public domain, health check `/api`, volume at `/app/storage` for uploads |
 | **Postgres** | `pgvector/pgvector:0.8.7-pg16` (pinned by digest) | Chatwoot 4 needs the `vector` extension. Volume at `/var/lib/postgresql/data` |
 | **Redis** | Railway's Redis | Jobs, caching and real-time events |
 
